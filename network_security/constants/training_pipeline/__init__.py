@@ -9,7 +9,7 @@ import pandas as pd
 """
 defing some more constant for training pipeline
 """
-TARGET_COLUMN = "RESULT"
+TARGET_COLUMN = "Result"
 PIPELINE_NAME = "NetworkSecurity"
 ARTIFACT_DIR  = "Artifacts"
 FILE_NAME = "phisingData.csv"
@@ -40,3 +40,19 @@ DATA_VALIDATION_INVALID_DIR: str = "invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
 PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
+
+
+"""
+Data Transformation related constant started with data_transformation var name
+"""
+
+Data_Transformation_Dir_Name: str = "data_transformation"
+Data_Transformation_Transformed_Data_Dir: str = "transformed"
+Data_Transformation_Transformed_Object_Dir: str = "transformed_object"
+
+Data_Transformation_Imputer_Params: dict = {
+  "missing_values" :np.nan,
+  "n_neighbors": 3,
+  "weights": "uniform",
+}
+
