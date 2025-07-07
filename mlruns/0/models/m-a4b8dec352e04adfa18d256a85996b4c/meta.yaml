@@ -1,0 +1,10 @@
+artifact_location: file:///G:/course/network%20security%20checkup/mlruns/0/models/m-a4b8dec352e04adfa18d256a85996b4c/artifacts
+creation_timestamp: 1751909320962
+experiment_id: '0'
+last_updated_timestamp: 1751909325615
+model_id: m-a4b8dec352e04adfa18d256a85996b4c
+model_type: null
+name: model
+source_run_id: dd5c9e7b985e48088a4d0f4f7cbfc454
+status: 2
+status_message: null
